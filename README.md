@@ -28,12 +28,12 @@ Depois que as libs foram instaladas, podemos executar o projeto com o comando:
 ### DOCKER
 Primeiro crie a imagem com o seguinte comando:
 ```
-  docker build -t files-service .
+  docker build -t mvp-files-service .
 ```
 
 depois rode a imagem com o seguinte comando:
 ```
-  docker run -p 0.0.0.0:5001:5001 --name files-service files-service
+  docker run -p 0.0.0.0:5001:5001 --name mvp-files-service mvp-files-service
 ```
 
 Abra o [http://localhost:5001/](http://localhost:5001/) no navegador para verificar o status da API em execução.
